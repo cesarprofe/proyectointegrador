@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p,h2,ol,img{
+    width: 90%;
+}
+
+.section{
+    width: 80%;
+    max-width: 1320px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fondo-amarillo{
+    background-color: rgb(255, 208, 0);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#inicio, 
+#principal, 
+#servicios, 
+#contacto,
+#footer{
+    display: flex;
+    justify-content: center;
+}
+
+#inicio .section nav{
+    display: flex;
+    align-items: center;
+}
+
+#inicio .section nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+#inicio .section nav ul li{
+    margin-left: 40px;
+}
+
+#inicio .section nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#inicio .section nav ul li a:hover{
+    color: white;
+}
+
+#principal .section{
+    display: block;
+}
+
+#principal .section > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo span{
+    font-weight: 400;
+}
+
+#principal section div div{
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+#principal section div div h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#principal section div div h1 span{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#principal section div div p{
+    margin-bottom: 40px;
+}
+
+#principal section div div h2{
+    margin-bottom: 10px;
+}
+
+#principal section div img{
+    width: 100%;
+}
+
+#servicios .section div,
+#contacto .section div{
+    width: 45%;
+}
+
+#servicios .section div h2{
+    margin-bottom: 20px;
+}
+
+#servicios .section div ol li{
+    margin-bottom: 10px;
+}
+
+#contacto .section div h2{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#contacto .section div form > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contacto .section .form {
+    display: flex;
+    justify-content: flex-end;
+
+}
+#contacto .section .form form{
+    width: 400px;
+}
+
+#contacto .section .form form div label{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#contacto .section .form form div label span{
+    color: red;
+}
+
+#contacto .section .form form div input,
+#contacto .section .form form div textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+
+#contacto .section .form form .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#contacto .section .form form .botones button{
+    width: 150px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+section div img{
+    width: 100%;
+}
+
+#footer div img{
+    width: 30px;
+}
+
+#footer .section{
+    align-items: center;
+}
+
+#footer .section div p{
+    margin-bottom: 10px;
+}
+
+#footer .section div #ir-arriba{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+}
+
+/*SUBMENU*/
+#inicio .section nav .submenu{
+    display: none;
+}
+
+#inicio .section nav li{
+    position: relative;
+}
+
+
+#inicio .section nav li:hover .submenu{
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+    width: 150px;
+}
+
+#inicio .section nav li:hover .submenu li{
+    margin: 0;
+    padding: 5px;
+}

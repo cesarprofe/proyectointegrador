@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio César Astorga</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="inicio" class="fondo-amarillo">
+        <div class="section">
+            <div>
+                <p class="logo"><span>soy </span>Cesar</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#principal">Sobre mi</a>
+                    </li>
+                    <li><a href="#servicios">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="">Servicio 1</a></li>
+                            <li><a href="">Servicio 2</a></li>
+                            <li><a href="">Servicio 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="principal">
+        <section class="section">
+            <div>
+                <div>
+                    <h1><span>soy</span><br>Cesar</h1>
+                    <p class="fondo-amarillo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, sint?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates a veritatis cupiditate distinctio ipsa facere soluta voluptatum perspiciatis omnis <strong>laborum atque recusandae et sequi enim, totam quibusdam molestiae vero commodi!</strong></p>
+                </div>
+                <div>
+                    <img src="img/foto.png" alt="foto perfil">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2 class="fondo-amarillo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, est.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates a veritatis cupiditate distinctio ipsa facere soluta voluptatum perspiciatis omnis <strong>laborum atque recusandae et sequi enim, totam quibusdam molestiae vero commodi!</strong></p>
+                </div>
+                <div>
+                    <h2 class="fondo-amarillo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, est.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates a veritatis cupiditate distinctio ipsa facere soluta voluptatum perspiciatis omnis <strong>laborum atque recusandae et sequi enim, totam quibusdam molestiae vero commodi!</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="servicios">
+        <div class="section">
+            <div>
+                <img src="img/img-servicios.png" alt="imagen con redes sociales">
+            </div>
+            <div>
+                <h2>Servicios</h2>
+                <ol>
+                    <li>Analisis de perfil</li>
+                    <li>Revisión y activación de canales</li>
+                    <li>Gestion creación y diseño de contenido</li>
+                    <li>Respuestas a mensajes y consultas</li>
+                    <li>Segmentacion de promociones</li>
+                    <li>Diagrama de calendarios</li>
+                    <li class="fondo-amarillo"><strong>Empezamos a comunicar</strong></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="section">
+            <div>
+                <h2>¿Queres que nos contactemos con vos?</h2>
+                <p class="fondo-amarillo"><strong>Envianos tu consulta >></strong></p>
+            </div>
+            <div class="form">
+                <form action="enviar.php" method="POST">
+                    <div>
+                        <label for="nombre">Nombre<span> *</span></label>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo electrónico<span> *</span></label>
+                        <input type="text" name="correo" placeholder="Ingrese su correo" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje<span> *</span></label>
+                        <textarea name="mensaje" id="" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="botones">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="fondo-amarillo">
+        <div class="section">
+            <div>
+                <p class="logo"><span>soy</span><br>Cesar</p>
+                <a href="">contacto@cesar.com</a>
+            </div>
+            <div>
+                <img src="img/instagram-icon.png" alt="instagram">
+                <img src="img/dribbble-icon.png" alt="x">
+                <img src="img/facebook-icon.png" alt="facebook">
+                <img src="img/linkedin-icon.png" alt="linkedin">
+            </div>
+            <div>
+                <a href="#inicio" id="ir-arriba">Ir arriba &#11205</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
